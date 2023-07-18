@@ -37,7 +37,7 @@ const ImageComponent = (props: Props) => {
       <div className='rounded-lg p-10 border-solid border-2 border-yellow-500'>
         {/* <img src={props.imageSrc} /> */}
         <p></p>
-        {loadingTime !== null && <p>{loadingTime} 纳秒</p>}
+        {loadingTime !== null && <p>{loadingTime} 毫秒</p>}
         <div>{props.domainName}</div>
       </div>
     </Link>
